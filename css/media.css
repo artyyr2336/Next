@@ -97,4 +97,7 @@
   .section__tittle-tittle {
     font-size: 60px;
   }
+  .offer__title:after {
+    right: 150px;
+  }
 }
