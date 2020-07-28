@@ -98,6 +98,9 @@
     font-size: 60px;
   }
   .offer__title:after {
-    right: 150px;
+    display: none;
+  }
+  .section__tittle-tittle:after {
+    display: none;
   }
 }
