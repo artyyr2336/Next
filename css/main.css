@@ -12,6 +12,7 @@
 .jpk-font {
     font-family: 'Jaapokkisubtract',sans-serif;
 }
+
 div,p,span,input,a,button{
     box-sizing: border-box;
 }
@@ -340,3 +341,72 @@ h3{
 .credits__up{
     text-decoration: none;
 }
+
+body, ul {
+    margin: 0;
+    padding: 0;
+	font-size: 18px;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.wrapper {
+	max-width: 1024px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+
+.menu {
+	position: relative;
+	}
+
+.menu li {
+	float: left; /* пункты меню в ряд */
+	list-style: none;
+}
+
+.menu li a {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #044cf1;
+	
+}
+
+.menuBurger {
+	padding: 10px 15px;
+	display: none;      /* кнопка гамбургер скрыта */
+	cursor: pointer;
+}
+
+
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
